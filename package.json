@@ -28,7 +28,7 @@
     "node-mailjet": "^5.1.1",
     "npm": "^9.2.0",
     "paypal-rest-sdk": "^1.8.1",
-    "pg": "^8.8.0",
+    "pg": "^8.11.5",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.26.0",
     "sweetalert2": "^11.6.16"
