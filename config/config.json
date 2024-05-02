@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Chau1234",
+    "database": "postgres",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Chau1234",
+    "database": "postgres",
+    "host": "db.kneiqmkjvzdscvwhjypu.supabase.co",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "passengerbus",
+    "password": "jpFAClT62jZNyVTcIN0hFsYUoNcFGRbn",
+    "database": "passengerbus",
+    "host": "cop47lm3e1ms73c4ttt0-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "ssl": true,
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false,
+        "dialect": "postgres"
+      }
+    }
+  }
+}
