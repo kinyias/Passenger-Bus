@@ -58,7 +58,7 @@ let cookieParser = require('cookie-parser');
 app.use(cookieParser());
 
 //Use Session
-let session = require('express-session');
+let session = require('cookie-session');
 app.use(
   session({
     cookie: { httpOnly: true, maxAge: null },
