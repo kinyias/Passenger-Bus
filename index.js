@@ -43,7 +43,7 @@ app.engine(
     },
   })
 );
-
+app.set("views", __dirname + "/views");
 app.set('view engine', 'hbs');
 
 app.use(express.static(__dirname + '/public')); //Mặc định web tĩnh ở trong thư mục public
